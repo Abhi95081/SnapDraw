@@ -493,7 +493,7 @@ fun SnapDrawScreen() {
             }
 
             // bottom-right mini panel showing current tool & measurements
-            Column(modifier = Modifier.align(Alignment.BottomEnd).padding(12.dp)) {
+            Column(modifier = Modifier.align(Alignment.TopStart).padding(12.dp)) {
                 Card(shape = RoundedCornerShape(8.dp), modifier = Modifier.widthIn(min = 140.dp), elevation = CardDefaults.cardElevation(defaultElevation = 6.dp)) {
                     Column(modifier = Modifier.padding(8.dp)) {
                         Text("Tool: ${currentTool.name}")
