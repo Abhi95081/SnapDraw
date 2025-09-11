@@ -25,7 +25,7 @@ import kotlinx.coroutines.delay
 fun SplashScreen(onTimeout: () -> Unit) {
     // ⏳ Auto navigate after 3 sec
     LaunchedEffect(Unit) {
-        delay(3000) // 3 seconds
+        delay(4000) // 4 seconds
         onTimeout()
     }
 
