@@ -96,7 +96,7 @@ fun SplashScreen(onTimeout: () -> Unit) {
                         .background(Color.White.copy(alpha = 0.15f), CircleShape),
                     contentAlignment = Alignment.Center
                 ) {
-                    // Your app logo
+
                     Image(
                         painter = painterResource(id = R.drawable.logo),
                         contentDescription = "App Logo",
@@ -110,7 +110,6 @@ fun SplashScreen(onTimeout: () -> Unit) {
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // App name
             Text(
                 text = "SnapDraw",
                 color = Color.White,
