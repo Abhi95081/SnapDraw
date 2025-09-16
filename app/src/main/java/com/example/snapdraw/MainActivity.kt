@@ -52,12 +52,15 @@ class MainActivity : ComponentActivity() {
         setContent {
             SnapDrawTheme {
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
+                    //SnapDrawApp Calling...
                     SnapDrawApp()
                 }
             }
         }
     }
 }
+
+//Preview
 @RequiresApi(Build.VERSION_CODES.Q)
 @Preview(showBackground = true)
         @Composable
