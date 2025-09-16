@@ -35,14 +35,7 @@ import com.example.snapdraw.screens.SnapDrawApp
 import com.example.snapdraw.screens.SnapDrawScreen
 import com.example.snapdraw.screens.SplashScreen
 
-/**
- * SnapDraw — Revised full file
- * - Fixed Pen drawing (local mutable stroke points)
- * - Added color picker and stroke width slider
- * - Improved UI (TopBar, FABs, controls)
- * - Splash overlay on startup
- * - Undo/Redo, Grid toggle, Export
- */
+
 
 class MainActivity : ComponentActivity() {
     @RequiresApi(Build.VERSION_CODES.Q)
